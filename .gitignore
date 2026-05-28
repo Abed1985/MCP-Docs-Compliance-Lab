@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.venv*/
+
+# Local secrets and generated state
+.env
+artifacts/
+faiss_index/
+*.faiss
+*.pkl
+seen_urls.json
+embedded_docs_cache.json
+
+# Editors / OS
+.vscode/
+.DS_Store
